@@ -1,0 +1,16 @@
+name: ponto_example
+description: Vitrine do design system Ponto.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  design_system_ponto:
+    path: ../
+
+flutter:
+  uses-material-design: true
